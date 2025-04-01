@@ -1,0 +1,24 @@
+package-delivery-app/
+├── client/                  # Frontend kood
+│   ├── public/              # Staatilised failid
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/                 # React komponendid
+│   │   ├── components/      # Ühikomponendid
+│   │   ├── pages/           # Leheküljed
+│   │   ├── App.js           # Põhikomponent
+│   │   └── index.js         # Rakenduse sisenemispunkt
+│   ├── package.json         # Frontend sõltuvused
+│   └── README.md            # Frontend dokumentatsioon
+│
+├── server/                  # Backend kood
+│   ├── controllers/         # API kontrollerid
+│   ├── models/              # Andmemudelid
+│   ├── routes/              # API marsruudid
+│   ├── app.js               # Rakenduse seadistus
+│   ├── server.js            # Serveri käivitamine
+│   ├── package.json         # Backend sõltuvused
+│   └── README.md            # Backend dokumentatsioon
+│
+├── .gitignore              # Failid, mida Git ignoreerib
+└── README.md               # Peamine dokumentatsioon
